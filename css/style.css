@@ -1,3 +1,5 @@
+*::before,
+*::after,
 * {
     box-sizing: border-box;
     margin: 0;
@@ -48,19 +50,27 @@ span {
 }
 
 .nav {
-        
+    display: flex;
+    list-style-type: none;
 }
 
 .nav__link {
+    margin-left: 60px;
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     color:#fff;
-    list-style-type: none;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase;   
 }
 
+.nav__link:hover {
+    color: #42a9ed;
+}
+
+.nav__link:first-child{
+    margin-left: 0;
+}
 
 
 /* INTRO */
