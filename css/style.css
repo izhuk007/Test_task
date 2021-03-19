@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-span {
+.color--blue {
     color: #42a9ed;
 }
 
@@ -49,19 +49,22 @@ span {
     color: #fff;
 }
 
-.nav {
+.nav__menu {
     display: flex;
     list-style-type: none;
 }
 
 .nav__link {
-    margin-left: 60px;
+    margin-left: 60px; 
+}
+
+.nav__style {
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     color:#fff;
     text-decoration: none;
-    text-transform: uppercase;   
+    text-transform: uppercase; 
 }
 
 .nav__link:hover {
@@ -78,7 +81,8 @@ span {
 .intro {
     height: 849px;
     background: url("../img/intro.jpg")  center center/ cover no-repeat;
-    padding: 245px 0 190px;
+    padding-top: 245px;
+    padding-bottom: 195px;
     
 }
 
