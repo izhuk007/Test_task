@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 849px;
     background: url("../img/intro.jpg")  center center/ cover no-repeat;
     padding-top: 245px;
-    padding-bottom: 195px;
+    padding-bottom: 190px;
     
 }
 
@@ -145,14 +145,14 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     text-decoration: none;
     opacity: 25;
-    width: 183px;
-    height: 43px;
+    width: 100%;
+    max-width: 183px;
     text-align: center;
     padding: 15px 0;
     border-radius: 3px;
     cursor: pointer;
     border: 1px solid #6f6d7b;
-    margin-left: 30px;
+    margin-left: 27px;
 }
 
 .btn--color {
