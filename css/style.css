@@ -155,11 +155,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 30px;
 }
 
-.btn--blue {
+.btn--color {
     background-color: #fff;
 }
 
-.btn--blue:hover {
+.btn--color:hover {
     background-color: #42a9ed;
     color: #fff;
     border: 1px solid #fff;
