@@ -57,11 +57,11 @@ h1, h2, h3, h4, h5, h6 {
     list-style-type: none;
 }
 
-.nav__link {
+.nav__item {
     margin-left: 60px; 
 }
 
-.nav__style {
+.nav__link {
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
@@ -70,11 +70,11 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase; 
 }
 
-.nav__style:hover {
+.nav__link:hover {
     color: #42a9ed;
 }
 
-.nav__link:first-child{
+.nav__item:first-child{
     margin-left: 0;
 }
 
