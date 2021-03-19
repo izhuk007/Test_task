@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 13px;
     text-transform: uppercase;
     text-decoration: none;
-    opacity: 25;
+    letter-spacing: 0,025em;
     width: 100%;
     max-width: 183px;
     text-align: center;
@@ -169,3 +169,30 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
 }
 
+/* CHECKOUT */
+
+.checkout {
+    height: 880px;      
+    background: url("../img/checkout/checkout.jpg") center center/ cover no-repeat;
+    padding: 122px 0 145px;
+}
+
+.checkout__inner {
+    text-align: center;
+}
+
+.checkout__title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.checkout__subtitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #bbbbbb;
+    font-size: 18px;
+}
