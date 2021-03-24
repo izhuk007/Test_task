@@ -91,7 +91,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__inner {
     width: 100%;
-    max-width: 736px;
 }
 
 .intro__title {
@@ -195,4 +194,73 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     color: #bbbbbb;
     font-size: 18px;
+    margin-bottom: 78px;
 }
+
+.checkout__sequence {
+    position: relative;
+}
+
+.checkout__dots {
+    display: flex;
+    position: absolute;
+    top: 47px;
+}
+
+.dot {
+    display: flex;
+    margin: 0 67px;    
+}
+
+.dot__item {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #bbbbbb;
+    margin: 0 9px;
+}
+
+.dot:first-child {
+    margin-left: 135px;
+}
+
+.checkout__stages {
+display: flex;
+}
+
+.checkout__icon {
+    margin-bottom: 20px;
+}
+
+.checkout__text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.search {
+    width: 135px;
+    margin-right: 100px;  
+  }
+
+.percent {
+    width: 186px;
+    margin-right: 75px;
+}
+
+.note {
+    width: 170px;
+    margin-right: 107px;
+}
+
+.letter {
+ width: 127px;
+ margin-right: 112px;   
+}
+
+.money {
+    width: 169px;
+} 
+
