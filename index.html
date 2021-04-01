@@ -55,33 +55,33 @@
                 <h3 class="checkout__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</h3>
                 <div class="checkout__sequence">
                     <div class="checkout__dots"> 
-                        <div class="dot">
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
+                        <div class="checkout__dots-group">
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
                         </div>
-                        <div class="dot">
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
+                        <div class="checkout__dots-group">
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
                         </div>
-                        <div class="dot">
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
+                        <div class="checkout__dots-group">
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
                         </div>
-                        <div class="dot">
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
-                            <div class="dot__item"></div>
+                        <div class="checkout__dots-group">
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
+                            <div class="checkout__dots-item"></div>
                         </div>
                     </div>
                     <div class="checkout__stages">
@@ -107,9 +107,72 @@
                         </div>
                     </div>       
                 </div>
-            </div>
-        </div>
+                <div class="checkout__input">
+                    <select name="type" id="type" class="checkout__input-type">
+                        <option selected disabled hidden class="checkout__input-type-item">Выберите тип системы</option>
+                        <option value="type1" class="checkout__input-type-item">Sed ut perspiciatis</option>
+                        <option value="type2" class="checkout__input-type-item">Nemo enim ipsam</option>
+                        <option value="type3" class="checkout__input-type-item">Et harum quidem</option>
+                        <option value="type4" class="checkout__input-type-item">Temporibus autem</option>
+                        <option value="type5" class="checkout__input-type-item">Itaque earum rerum</option>
+                    </select>
+                    <input type="text" placeholder="Ваш e-mail" class="checkout__input-text">
+                    <input type="text" placeholder="Ваше имя" class="checkout__input-text">
+                </div>
+                <div class="checkout__input slider-file">
+                    <div class="checkout__slider">
+                        <div class="checkout__slider-text-container">
+                            <p class="checkout__slider_text">Sed ut perspiciatis, unde omnis iste natus</p>
+                            <p class="checkout__slider_percent"><span id="demo"></span> %</p>
+                        </div>
+                        <input type="range" min="0" max="100" value="75" class="slider" id="myRange">
+                    </div>
+                    <div class="checkout__file">
+                        <input type="file" name="file" id="input__file" class="checkout__file-hidden">
+                        <label for="input__file" class="checkout__file-button">
+                            <div class="checkout__file-button-icon-text">
+                                <img class="checkout__file-button-icon" src="/img/checkout/icons/file.svg" alt="Выбрать файл">
+                                <span class="checkout__file-button-text">Прикрепить файл</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <a href="" class="btn btn--color checkout_btn">Отправить</a>
+            </div> <!-- CHECKOUT__INNER -->
+        </div> <!-- CONTAINER -->
     </section>
-
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__copyright">© 2018 «LoremIpsum.net» Все права защищены.</div>
+                <div class="footer__pay">
+                    <a href="#" class="footer__pay-item">
+                        <img src="" alt="" class="footer__pay-item-icon">
+                        <span class="footer__pay-item-text">Qiwi wallet</span>
+                    </a>
+                    <a href="#" class="footer__pay-item">
+                        <img src="" alt="" class="footer__pay-item-icon">
+                        <span class="footer__pay-item-text">Yandex Money</span>
+                    </a>
+                        <a href="#" class="footer__pay-item">
+                            <img src="" alt="" class="footer__pay-item-icon">
+                            <span class="footer__pay-item-text">Web Money</span>
+                        </a>
+                </div>
+                <div class="footer__contact">
+                    <a href="#" class="footer__contact-item">
+                        <img src="" alt="" class="footer__contact-item-icon">
+                        <span class="footer__contact-item-text">info@ipsum228.com</span>
+                    </a>
+                    <a href="#" class="footer__contact-item">
+                        <img src="" alt="" class="footer__contact-item-icon">
+                        <span class="footer__pay-contact-text">Мы вконтакте</span>
+                    </a>
+                </div>
+            </div> <!-- FOOTER__INNER -->
+        </div> <!-- CONTAINER -->
+    </footer>
+    <script src="/script.js"></script>
 </body>
 </html>
