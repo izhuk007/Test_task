@@ -236,8 +236,56 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
 }
 
-.checkout__icon {
+.checkout__stagesearch-width {
+    width: 135px;
+     
+  }
+
+.checkout__stagepercent-width {
+    width: 186px;
+   
+}
+
+.checkout__stagenote-width {
+    width: 170px;
+    
+}
+
+.checkout__stageletter-width {
+ width: 127px;
+
+}
+
+.checkout__stagemoney-width {
+    width: 169px;
+} 
+
+.checkout__image-container {
+    width: 100px;
+    height: 100px;
+    background-color: #3e9cdc;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 5px solid #286690;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     margin-bottom: 20px;
+}
+
+.checkout__image {
+    display: block;
+    width: 50px;
+    height: 55px;
+    fill: #fff;
 }
 
 .checkout__text {
@@ -248,29 +296,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 20px;
 }
 
-.search {
-    width: 135px;
-    /* margin-right: 100px;  */ 
-  }
 
-.percent {
-    width: 186px;
-   /*  margin-right: 75px; */
-}
-
-.note {
-    width: 170px;
-    /* margin-right: 107px; */
-}
-
-.letter {
- width: 127px;
-/*  margin-right: 112px;    */
-}
-
-.money {
-    width: 169px;
-} 
 
 /* CHECKOUT__INPUT */
 
@@ -447,9 +473,6 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
 }
 
-.footer__copyright {
-
-}
 
 .footer__pay {
     width: 100%;
@@ -464,11 +487,39 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
 }
 
-.footer__contact-item {
-    color: #fff;
+.footer__ref {
+    display: flex;
     text-decoration: none;
 }
 
-.footer__contact-item:first-child {
+.footer__ref-icon {
+    display: inline;
+    fill: #3e9cdc;
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.footer__text {
+    margin-left: 10px;
+    color: #fff;   
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px; 
+}
+
+.footer__copyright {
+    margin-left: 0;
+    line-height: 14px;
+}
+
+.footer__text-pay {
+    color: #c3c3c3;
+}
+
+.footer__ref-post {
     margin-right: 40px;
 }
+
+
+
